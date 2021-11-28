@@ -1,0 +1,42 @@
+/* Keyframes */
+@keyframes showOptions {
+   0% {
+      width: 0;
+      opacity: 0;
+   }
+
+   90% {
+      width: 8rem;
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
+@keyframes swipeOut {
+   0% {
+      transform: translateX(0);
+   }
+
+   5% {
+      transform: translateX(5rem);
+   }
+
+   200% {
+      transform: translateX(-200rem);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateX(-200rem);
+      opacity: 0;
+      height: 0;
+   }
+}
+
+.swipe-out {
+   animation: swipeOut 2s ease-in-out forwards;
+   /* animation-fill-mode: backwards; */
+}

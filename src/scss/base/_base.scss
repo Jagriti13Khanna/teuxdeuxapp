@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+ }
+ 
+ html {
+    font-size: 62.5%; /* 1rem = 10px */
+ }
+
+ #app {
+    width: 30%;
+    min-width: 36rem;
+    padding: 1rem;
+    margin: 7rem auto;
+    box-shadow: var(--dark-shadow);
+    background-color: var(--color-light-3);
+    position: relative;
+    min-height: 40rem;
+ }
+
+ .app--wallpaper {
+    background: url(../images/background.jpg);
+    background-position: center;
+ }

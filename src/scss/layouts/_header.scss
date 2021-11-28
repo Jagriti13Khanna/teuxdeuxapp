@@ -1,0 +1,45 @@
+.header {
+   width: 100%;
+   font-size: 1.6rem;
+   height: 7rem;
+   display: flex;
+   margin-bottom: 5rem;
+   /* align-items: center; */
+   flex-direction: column;
+   /* justify-content: space-between; */
+
+   &__top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1rem 1.5rem;
+
+      .logo-box {
+        //   margin-left: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .logo {
+         height: 3rem;
+      }
+
+      .settings {
+         &__button {
+            width: 5rem;
+            height: 5rem;
+            background-color: var(--color-light-2);
+            border: none;
+            border-radius: 50%;
+            padding: 1rem;
+            cursor: pointer;
+
+            &:hover {
+               background-color: var(--color-dark-2);
+            }
+         }
+      }
+   }
+}

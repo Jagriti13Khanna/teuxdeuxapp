@@ -1,0 +1,35 @@
+.search {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 0.6rem;
+   
+   &__input {
+      width: 90%;
+      font-size: inherit;
+      color: inherit;
+      background-color: var(--color-light-2);
+      border-radius: 200px;
+      padding: 1rem 2rem;
+      border: none;
+      margin-left: -1.5rem;
+      margin-right: -3.5rem;
+      transition: all 0.2s;
+
+      &:focus {
+        outline: none;
+        width: 100%;
+     }
+   }
+
+   &__button {
+      background-color: var(--color-light-2);
+      border: none;
+   }
+
+   &__icon {
+      width: 2rem;
+      height: 2rem;
+   }
+}
