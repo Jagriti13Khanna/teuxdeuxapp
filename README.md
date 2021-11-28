@@ -17,4 +17,7 @@
     npm run start
    ```
 
-## Netlify Link - https://app.netlify.com/sites/musing-galileo-6d6984/overview
+## Netlify Link
+```
+    https://app.netlify.com/sites/musing-galileo-6d6984/overview
+```
